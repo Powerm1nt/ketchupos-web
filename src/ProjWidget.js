@@ -2,7 +2,7 @@ import './ProjWidget.scss';
 
 function ProjWidget() {
   return (
-    <div className="coming-soon">
+    <a className="coming-soon" href="https://github.com/KetchupOS">
       <div className="projname">
         <img 
           className="projname-logo" 
@@ -17,7 +17,7 @@ function ProjWidget() {
       </div>
 
       <span className="proj-status">Coming soon.</span>
-    </div>
+    </a>
   );
 }
 
