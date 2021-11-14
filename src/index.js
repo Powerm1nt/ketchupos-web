@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import App from './App';
+import ProjWidget from './ProjWidget';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ProjWidget />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,6 +1,6 @@
-import './App.scss';
+import './ProjWidget.scss';
 
-function App() {
+function ProjWidget() {
   return (
     <div className="main-container">
       <div className="coming-soon">
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default ProjWidget;
